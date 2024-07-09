@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: blue; /* Optional: Set background color */
+    cursor: default;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.slider-output{
+    font-size: x-large;
+    font-weight: 1000;
+}
+.output-section p{
+    font-size: x-large;
+    font-weight: 1000;
+}
+.output{
+    background-color: blue;
+    display: inline-flex;
+    margin: 0;
+    border-radius: 0px;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.slider-input{
+    accent-color: blue;
+}
+  
